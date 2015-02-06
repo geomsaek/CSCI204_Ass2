@@ -1,0 +1,49 @@
+	char separator = ',';
+	int comFind = 0, foundEmployees = 0, counter = 0;
+	bool employeeType = true, copyData = false;
+	std::ifstream file;
+	std::string tempString, subTemp;
+	std::string typeStore = "";	
+
+	while(!file.eof()){
+		std::getline(file, tempString);
+
+		
+		tempString >> test;
+
+		if(tempString.length() > 20){
+			while(tempString != subTemp){
+				
+				comFind = searchIndex(tempString, separator);
+				subTemp = tempString.substr(0, comFind);
+
+
+				if(employeeType){
+					try{
+						checkType(subTemp);
+					}catch(std::string err){
+						writeErrorToLog(err);
+						badEmployee = true;
+					}
+					if(!badEmployee){
+						typeStore = subTemp;
+					}
+					employeeType = false;
+				}
+				
+				if(badEmployee){
+					outEmployeeData(counter, subTemp);
+				}else {
+					createNewInstance(subTemp, counter, typeStore);
+				}
+				tempString = createSubString(tempString, comFind + 1, tempString.length());
+				counter = counter + 1;
+			}
+
+			foundEmployees =  foundEmployees + 1;
+		
+		}
+		badEmployee = false;
+		employeeType= true;
+		counter = 0;
+	}

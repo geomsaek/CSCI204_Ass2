@@ -1,0 +1,4 @@
+A,1234567,John,12/02/1965,21 Victoria street Depto NSW 2530,311
+T,1122334,Taylor,08/04/1978,32 Smith street Wollongong NSW 2500,C++,7
+A,1234580,Joan,29/02/1986,20 Ocean street Coniston NSW 2500,311
+D,1234123,Bob,28/09/1983,121 Princess highway Wollongong NSW 2500,1320671

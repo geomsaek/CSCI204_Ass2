@@ -1,0 +1,19 @@
+In text file line 3 has error: Invalid Day. Day should be between 1 and 28.
+In text file line 9 has an error: 'S' is a wrong employee type
+In text file line 3 has error: Invalid Day. Day should be between 1 and 28.
+In text file line 9 has an error: 'S' is a wrong employee type
+In text file line 3 has error: Invalid Day. Day should be between 1 and 28.
+In text file line 9 has an error: 'S' is a wrong employee type
+In text file line 3 has error: Invalid Day. Day should be between 1 and 28.
+In text file line 9 has an error: 'S' is a wrong employee type
+In text file line 3 has error: Invalid Day. Day should be between 1 and 28.
+In text file line 9 has an error: 'S' is a wrong employee type
+In text file line 3 has error: Invalid Day. Day should be between 1 and 28.
+In text file line 9 has an error: 'S' is a wrong employee type
+In text file line 3 has error: Invalid Day. Day should be between 1 and 28.
+In text file line 9 has an error: 'S' is a wrong employee type
+In text file line 3 has error: Invalid Day. Day should be between 1 and 28.
+In text file line 9 has an error: 'S' is a wrong employee type
+Failed to open file: Bad File Name
+File Name: In text file line 3 has error: Invalid Day. Day should be between 1 and 28.
+In text file line 9 has an error: 'S' is a wrong employee type
